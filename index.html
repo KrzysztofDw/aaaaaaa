@@ -3,16 +3,38 @@
 <head>
     <meta charset="utf-8">
     <title>Strona z iframe</title>
+    <style>
+        .header-logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .header-logo img {
+            width: 50px; /* Zmniejszenie logo */
+            height: auto; /* Zachowanie proporcji */
+            border: 1px solid #000; /* Obramowanie logo */
+        }
+
+        .header-logo div {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <table width="65%" border="1" align="center">
         <!-- Nagłówek -->
         <tr>
-            <td colspan="4" align="center" style="text-align: center; vertical-align: middle;">
-                <img src="logo_2_dworak.jpg" border="1" align="left" alt="Logo Dworak">
-                <b>LOGO - Dworak</b>
-                <br>
-                <b>Gdańsk, 23-01-2025</b>
+            <td colspan="4">
+                <div class="header-logo">
+                    <img src="logo_2_dworak.jpg" alt="Logo Dworak">
+                    <div>
+                        <b>LOGO - Dworak</b>
+                        <br>
+                        <b>Gdańsk, 23-01-2025</b>
+                    </div>
+                </div>
             </td>
         </tr>
 
@@ -58,4 +80,3 @@
     </table>
 </body>
 </html>
-
