@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Film</title>
+</head>
+<body>
+    <h2 align="center">Obejrzyj film:</h2>
+    <div align="center">
+        <video controls width="640" height="360">
+            <source src="abc.mp4" type="video/mp4">
+            Twoja przeglądarka nie obsługuje odtwarzania wideo.
+        </video>
+    </div>
+</body>
+</html>
