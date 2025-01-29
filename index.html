@@ -21,21 +21,19 @@
             text-align: center;
         }
 
-        /* Styl do mapy obrazów */
         .image-map {
-            width: 100px; /* Ustawia szerokość na 100px */
-            height: auto; /* Umożliwia automatyczne dostosowanie wysokości */
+            width: 100px; 
+            height: auto; 
         }
 
         .image-map-container {
-            text-align: center; /* Wyrównanie do środka */
-            margin-bottom: 10px; /* Margines dolny */
+            text-align: center; 
+            margin-bottom: 10px; 
         }
     </style>
 </head>
 <body>
     <table width="65%" border="1" align="center">
-        <!-- Nagłówek -->
         <tr>
             <td colspan="4">
                 <div class="header-logo">
@@ -49,7 +47,6 @@
             </td>
         </tr>
 
-        <!-- Lewe menu -->
         <tr>
             <td width="20%" align="center">
                 <b><h2>Lewe menu</h2></b>
@@ -62,25 +59,21 @@
                 </ul>
             </td>
 
-            <!-- Główna treść -->
             <td align="center" colspan="2">
                 <iframe width="800" height="420" name="Obszar_Glowny" src="start.html" frameborder="0"></iframe>
             </td>
 
-            <!-- Prawe menu -->
             <td width="18%" align="left">
                 <b><h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prawe menu</h2></b>
                 <div class="image-map-container">
-                    <!-- Mapa obrazów -->
                     <img src="mapy.gif" alt="Tutaj wybieraj linki" usemap="#mapa" class="image-map">
-               <map id="mapa_kowalski">
- <area shape="rect" coords="2,3,91,46" href="plik.zip">
- <area shape="rect" coords="2,50,91,95" href="tabela_dworak.html" target="obszar_glowny">
- <area shape="circle" coords="48,125,23" href="formularz_dworak.html" target="obszar_glowny">
- <area shape="poly" coords="46,166,81,225,13,225" href="mailto:krzysztofdwo11@gmail.com">
- <area shape="circle" coords="48,270,23" href="https://krzysztofdw.github.io/Witryny-i-Aplikacje/" target="obszar_glowny">
-</map>
- <img src="mapa.gif" alt="tutaj wybieraj linki" usemap="#mapa_kowalski">
+                    <map name="mapa_kowalski">
+                        <area shape="rect" coords="2,3,91,46" href="plik.zip">
+                        <area shape="rect" coords="2,50,91,95" href="tabela_dworak.html" target="Obszar_Glowny">
+                        <area shape="circle" coords="48,125,23" href="formularz_dworak.html" target="Obszar_Glowny">
+                        <area shape="poly" coords="46,166,81,225,13,225" href="mailto:krzysztofdwo11@gmail.com">
+                        <area shape="circle" coords="48,270,23" href="https://krzysztofdw.github.io/Witryny-i-Aplikacje/" target="Obszar_Glowny">
+                    </map>
                 </div>
                 <ul>
                     <li><a href="pobieraniePDF.html" target="Obszar_Glowny">Pobierz PDF</a></li>
@@ -92,7 +85,6 @@
             </td>
         </tr>
 
-        <!-- Stopka -->
         <tr>
             <td colspan="4" align="center" style="text-align: center; vertical-align: middle;">
                 <b>STOPKA - Dworak</b>
